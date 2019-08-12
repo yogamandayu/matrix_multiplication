@@ -51,8 +51,9 @@ def matrixCalculation(matrik_A, matrik_B)
                 matrik_C[i][j] = a
             end
         end
+        return matrik_C
     end
-    return matrik_C
+    return "Matrix multiplication requirement not met"
 end
 
 main()
